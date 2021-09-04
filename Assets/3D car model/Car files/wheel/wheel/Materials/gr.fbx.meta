@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: 7e62c90700b84d444bcfaf4632fcd449
+timeCreated: 1495111912
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: black_blocker
+    100002: blackRearReflector
+    100004: body
+    100006: body 1
+    100008: carpaint
+    100010: carpaint1
+    100012: carpaint10
+    100014: carpaint11
+    100016: carpaint12
+    100018: carpaint13
+    100020: carpaint14
+    100022: carpaint15
+    100024: carpaint16
+    100026: carpaint17
+    100028: carpaint18
+    100030: carpaint19
+    100032: carpaint2
+    100034: carpaint20
+    100036: carpaint21
+    100038: carpaint22
+    100040: carpaint23
+    100042: carpaint24
+    100044: carpaint25
+    100046: carpaint26
+    100048: carpaint3
+    100050: carpaint4
+    100052: carpaint5
+    100054: carpaint6
+    100056: carpaint7
+    100058: carpaint8
+    100060: carpaint9
+    100062: carpaint_
+    100064: exhaust4
+    100066: exterior
+    100068: FL_brakeDisc
+    100070: FL_brakeDisc 1
+    100072: FL_brakeDisc 2
+    100074: FL_brakeDisc 3
+    100076: FL_caliper
+    100078: FL_caliper 1
+    100080: FL_caliper 2
+    100082: FL_caliper 3
+    100084: fl_door_exterior
+    100086: fl_door_exterior2
+    100088: FL_rim
+    100090: FL_rim 1
+    100092: FL_rim 2
+    100094: FL_rim 3
+    100096: FL_tire
+    100098: FL_tire 1
+    100100: FL_tire 2
+    100102: FL_tire 3
+    100104: FL_wheel
+    100106: FLrim_spoke
+    100108: FLrim_spoke 1
+    100110: FLrim_spoke 2
+    100112: FLrim_spoke 3
+    100114: FR_wheel
+    100116: front_duct_lid
+    100118: front_inlet03
+    100120: front_inlet04
+    100122: front_plate_case
+    100124: front_plate_plane
+    100126: Front_Spoiler
+    100128: front_spoiler_blocker
+    100130: fuel_cap_part
+    100132: FuelLid
+    100134: //RootNode
+    100136: glass
+    100138: hood_lock2
+    100140: hook
+    100142: interior
+    100144: l_door_G
+    100146: l_door_glass
+    100148: l_door_handle
+    100150: l_door_interior
+    100152: l_side_mirror
+    100154: l_wiper
+    100156: left_tri_plane
+    100158: lights
+    100160: mirror
+    100162: mirror 1
+    100164: polymsh_detached
+    100166: pPlane3
+    100168: r_door_G
+    100170: r_door_glass
+    100172: r_door_handle
+    100174: r_door_interior
+    100176: r_side_mirror
+    100178: r_wiper
+    100180: rear_air_outlet
+    100182: rear_bumper_mid
+    100184: rear_plate_case
+    100186: rear_plate_panel
+    100188: rear_reflector
+    100190: rear_spoiler
+    100192: rearLightGlass
+    100194: RearOuttakes
+    100196: RearWing_Bolts
+    100198: RearWing_Gasket
+    100200: RearWing_holder
+    100202: RearWing_Small
+    100204: right_tri_plane
+    100206: RL_wheel
+    100208: RR_wheel
+    100210: spoiler_middle
+    100212: spoiler_side
+    100214: windshield
+    100216: windshield_frame
+    100218: carpaint27
+    400000: black_blocker
+    400002: blackRearReflector
+    400004: body
+    400006: body 1
+    400008: carpaint
+    400010: carpaint1
+    400012: carpaint10
+    400014: carpaint11
+    400016: carpaint12
+    400018: carpaint13
+    400020: carpaint14
+    400022: carpaint15
+    400024: carpaint16
+    400026: carpaint17
+    400028: carpaint18
+    400030: carpaint19
+    400032: carpaint2
+    400034: carpaint20
+    400036: carpaint21
+    400038: carpaint22
+    400040: carpaint23
+    400042: carpaint24
+    400044: carpaint25
+    400046: carpaint26
+    400048: carpaint3
+    400050: carpaint4
+    400052: carpaint5
+    400054: carpaint6
+    400056: carpaint7
+    400058: carpaint8
+    400060: carpaint9
+    400062: carpaint_
+    400064: exhaust4
+    400066: exterior
+    400068: FL_brakeDisc
+    400070: FL_brakeDisc 1
+    400072: FL_brakeDisc 2
+    400074: FL_brakeDisc 3
+    400076: FL_caliper
+    400078: FL_caliper 1
+    400080: FL_caliper 2
+    400082: FL_caliper 3
+    400084: fl_door_exterior
+    400086: fl_door_exterior2
+    400088: FL_rim
+    400090: FL_rim 1
+    400092: FL_rim 2
+    400094: FL_rim 3
+    400096: FL_tire
+    400098: FL_tire 1
+    400100: FL_tire 2
+    400102: FL_tire 3
+    400104: FL_wheel
+    400106: FLrim_spoke
+    400108: FLrim_spoke 1
+    400110: FLrim_spoke 2
+    400112: FLrim_spoke 3
+    400114: FR_wheel
+    400116: front_duct_lid
+    400118: front_inlet03
+    400120: front_inlet04
+    400122: front_plate_case
+    400124: front_plate_plane
+    400126: Front_Spoiler
+    400128: front_spoiler_blocker
+    400130: fuel_cap_part
+    400132: FuelLid
+    400134: //RootNode
+    400136: glass
+    400138: hood_lock2
+    400140: hook
+    400142: interior
+    400144: l_door_G
+    400146: l_door_glass
+    400148: l_door_handle
+    400150: l_door_interior
+    400152: l_side_mirror
+    400154: l_wiper
+    400156: left_tri_plane
+    400158: lights
+    400160: mirror
+    400162: mirror 1
+    400164: polymsh_detached
+    400166: pPlane3
+    400168: r_door_G
+    400170: r_door_glass
+    400172: r_door_handle
+    400174: r_door_interior
+    400176: r_side_mirror
+    400178: r_wiper
+    400180: rear_air_outlet
+    400182: rear_bumper_mid
+    400184: rear_plate_case
+    400186: rear_plate_panel
+    400188: rear_reflector
+    400190: rear_spoiler
+    400192: rearLightGlass
+    400194: RearOuttakes
+    400196: RearWing_Bolts
+    400198: RearWing_Gasket
+    400200: RearWing_holder
+    400202: RearWing_Small
+    400204: right_tri_plane
+    400206: RL_wheel
+    400208: RR_wheel
+    400210: spoiler_middle
+    400212: spoiler_side
+    400214: windshield
+    400216: windshield_frame
+    400218: carpaint27
+    2300000: black_blocker
+    2300002: blackRearReflector
+    2300004: body
+    2300006: body 1
+    2300008: carpaint
+    2300010: carpaint1
+    2300012: carpaint10
+    2300014: carpaint11
+    2300016: carpaint12
+    2300018: carpaint13
+    2300020: carpaint14
+    2300022: carpaint15
+    2300024: carpaint16
+    2300026: carpaint17
+    2300028: carpaint18
+    2300030: carpaint19
+    2300032: carpaint2
+    2300034: carpaint20
+    2300036: carpaint21
+    2300038: carpaint22
+    2300040: carpaint23
+    2300042: carpaint24
+    2300044: carpaint25
+    2300046: carpaint26
+    2300048: carpaint3
+    2300050: carpaint4
+    2300052: carpaint5
+    2300054: carpaint6
+    2300056: carpaint7
+    2300058: carpaint8
+    2300060: carpaint9
+    2300062: exhaust4
+    2300064: FL_brakeDisc
+    2300066: FL_brakeDisc 1
+    2300068: FL_brakeDisc 2
+    2300070: FL_brakeDisc 3
+    2300072: FL_caliper
+    2300074: FL_caliper 1
+    2300076: FL_caliper 2
+    2300078: FL_caliper 3
+    2300080: fl_door_exterior
+    2300082: fl_door_exterior2
+    2300084: FL_rim
+    2300086: FL_rim 1
+    2300088: FL_rim 2
+    2300090: FL_rim 3
+    2300092: FL_tire
+    2300094: FL_tire 1
+    2300096: FL_tire 2
+    2300098: FL_tire 3
+    2300100: FLrim_spoke
+    2300102: FLrim_spoke 1
+    2300104: FLrim_spoke 2
+    2300106: FLrim_spoke 3
+    2300108: front_duct_lid
+    2300110: front_inlet03
+    2300112: front_inlet04
+    2300114: front_plate_case
+    2300116: front_plate_plane
+    2300118: Front_Spoiler
+    2300120: front_spoiler_blocker
+    2300122: fuel_cap_part
+    2300124: FuelLid
+    2300126: glass
+    2300128: hood_lock2
+    2300130: hook
+    2300132: interior
+    2300134: l_door_glass
+    2300136: l_door_handle
+    2300138: l_door_interior
+    2300140: l_wiper
+    2300142: left_tri_plane
+    2300144: lights
+    2300146: mirror
+    2300148: mirror 1
+    2300150: polymsh_detached
+    2300152: pPlane3
+    2300154: r_door_glass
+    2300156: r_door_handle
+    2300158: r_door_interior
+    2300160: r_wiper
+    2300162: rear_air_outlet
+    2300164: rear_bumper_mid
+    2300166: rear_plate_case
+    2300168: rear_plate_panel
+    2300170: rear_reflector
+    2300172: rear_spoiler
+    2300174: rearLightGlass
+    2300176: RearOuttakes
+    2300178: RearWing_Bolts
+    2300180: RearWing_Gasket
+    2300182: RearWing_holder
+    2300184: RearWing_Small
+    2300186: right_tri_plane
+    2300188: spoiler_middle
+    2300190: spoiler_side
+    2300192: windshield
+    2300194: windshield_frame
+    2300196: carpaint27
+    3300000: black_blocker
+    3300002: blackRearReflector
+    3300004: body
+    3300006: body 1
+    3300008: carpaint
+    3300010: carpaint1
+    3300012: carpaint10
+    3300014: carpaint11
+    3300016: carpaint12
+    3300018: carpaint13
+    3300020: carpaint14
+    3300022: carpaint15
+    3300024: carpaint16
+    3300026: carpaint17
+    3300028: carpaint18
+    3300030: carpaint19
+    3300032: carpaint2
+    3300034: carpaint20
+    3300036: carpaint21
+    3300038: carpaint22
+    3300040: carpaint23
+    3300042: carpaint24
+    3300044: carpaint25
+    3300046: carpaint26
+    3300048: carpaint3
+    3300050: carpaint4
+    3300052: carpaint5
+    3300054: carpaint6
+    3300056: carpaint7
+    3300058: carpaint8
+    3300060: carpaint9
+    3300062: exhaust4
+    3300064: FL_brakeDisc
+    3300066: FL_brakeDisc 1
+    3300068: FL_brakeDisc 2
+    3300070: FL_brakeDisc 3
+    3300072: FL_caliper
+    3300074: FL_caliper 1
+    3300076: FL_caliper 2
+    3300078: FL_caliper 3
+    3300080: fl_door_exterior
+    3300082: fl_door_exterior2
+    3300084: FL_rim
+    3300086: FL_rim 1
+    3300088: FL_rim 2
+    3300090: FL_rim 3
+    3300092: FL_tire
+    3300094: FL_tire 1
+    3300096: FL_tire 2
+    3300098: FL_tire 3
+    3300100: FLrim_spoke
+    3300102: FLrim_spoke 1
+    3300104: FLrim_spoke 2
+    3300106: FLrim_spoke 3
+    3300108: front_duct_lid
+    3300110: front_inlet03
+    3300112: front_inlet04
+    3300114: front_plate_case
+    3300116: front_plate_plane
+    3300118: Front_Spoiler
+    3300120: front_spoiler_blocker
+    3300122: fuel_cap_part
+    3300124: FuelLid
+    3300126: glass
+    3300128: hood_lock2
+    3300130: hook
+    3300132: interior
+    3300134: l_door_glass
+    3300136: l_door_handle
+    3300138: l_door_interior
+    3300140: l_wiper
+    3300142: left_tri_plane
+    3300144: lights
+    3300146: mirror
+    3300148: mirror 1
+    3300150: polymsh_detached
+    3300152: pPlane3
+    3300154: r_door_glass
+    3300156: r_door_handle
+    3300158: r_door_interior
+    3300160: r_wiper
+    3300162: rear_air_outlet
+    3300164: rear_bumper_mid
+    3300166: rear_plate_case
+    3300168: rear_plate_panel
+    3300170: rear_reflector
+    3300172: rear_spoiler
+    3300174: rearLightGlass
+    3300176: RearOuttakes
+    3300178: RearWing_Bolts
+    3300180: RearWing_Gasket
+    3300182: RearWing_holder
+    3300184: RearWing_Small
+    3300186: right_tri_plane
+    3300188: spoiler_middle
+    3300190: spoiler_side
+    3300192: windshield
+    3300194: windshield_frame
+    3300196: carpaint27
+    4300000: Front_Spoiler
+    4300002: front_plate_plane
+    4300004: front_plate_case
+    4300006: front_duct_lid
+    4300008: front_spoiler_blocker
+    4300010: hook
+    4300012: rear_bumper_mid
+    4300014: rear_plate_panel
+    4300016: rear_plate_case
+    4300018: rear_spoiler
+    4300020: exhaust4
+    4300022: rear_reflector
+    4300024: rear_air_outlet
+    4300026: rearLightGlass
+    4300028: RearOuttakes
+    4300030: black_blocker
+    4300032: fuel_cap_part
+    4300034: FuelLid
+    4300036: RearWing_Small
+    4300038: RearWing_Gasket
+    4300040: RearWing_holder
+    4300042: spoiler_middle
+    4300044: spoiler_side
+    4300046: lights
+    4300048: RearWing_Bolts
+    4300050: glass
+    4300052: front_inlet03
+    4300054: FL_tire
+    4300056: FL_rim
+    4300058: FLrim_spoke
+    4300060: FL_brakeDisc
+    4300062: FL_caliper
+    4300064: FL_tire
+    4300066: FL_rim
+    4300068: FLrim_spoke
+    4300070: FL_brakeDisc
+    4300072: FL_caliper
+    4300074: FL_tire
+    4300076: FL_rim
+    4300078: FLrim_spoke
+    4300080: FL_brakeDisc
+    4300082: FL_caliper
+    4300084: FL_tire
+    4300086: FL_rim
+    4300088: FLrim_spoke
+    4300090: FL_brakeDisc
+    4300092: FL_caliper
+    4300094: r_wiper
+    4300096: l_wiper
+    4300098: front_inlet04
+    4300100: windshield_frame
+    4300102: windshield
+    4300104: hood_lock2
+    4300106: pPlane3
+    4300108: polymsh_detached
+    4300110: carpaint6
+    4300112: carpaint1
+    4300114: carpaint2
+    4300116: carpaint3
+    4300118: carpaint4
+    4300120: carpaint5
+    4300122: carpaint
+    4300124: carpaint7
+    4300126: carpaint8
+    4300128: carpaint9
+    4300130: carpaint11
+    4300132: carpaint10
+    4300134: carpaint12
+    4300136: carpaint14
+    4300138: carpaint13
+    4300140: carpaint15
+    4300142: carpaint16
+    4300144: carpaint17
+    4300146: carpaint18
+    4300148: carpaint19
+    4300150: carpaint20
+    4300152: carpaint21
+    4300154: carpaint22
+    4300156: carpaint23
+    4300158: carpaint24
+    4300160: carpaint25
+    4300162: carpaint26
+    4300164: blackRearReflector
+    4300166: mirror
+    4300168: body
+    4300170: l_door_handle
+    4300172: l_door_interior
+    4300174: left_tri_plane
+    4300176: l_door_glass
+    4300178: fl_door_exterior
+    4300180: body
+    4300182: mirror
+    4300184: r_door_interior
+    4300186: right_tri_plane
+    4300188: r_door_handle
+    4300190: r_door_glass
+    4300192: fl_door_exterior2
+    4300194: interior
+    4300196: carpaint27
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: exterior
+        weight: 1
+      - path: exterior/black_blocker
+        weight: 1
+      - path: exterior/blackRearReflector
+        weight: 1
+      - path: exterior/carpaint_
+        weight: 1
+      - path: exterior/carpaint_/carpaint
+        weight: 1
+      - path: exterior/carpaint_/carpaint1
+        weight: 1
+      - path: exterior/carpaint_/carpaint2
+        weight: 1
+      - path: exterior/carpaint_/carpaint3
+        weight: 1
+      - path: exterior/carpaint_/carpaint5
+        weight: 1
+      - path: exterior/carpaint_/carpaint6
+        weight: 1
+      - path: exterior/carpaint_/carpaint7
+        weight: 1
+      - path: exterior/carpaint_/carpaint8
+        weight: 1
+      - path: exterior/carpaint_/carpaint9
+        weight: 1
+      - path: exterior/carpaint_/carpaint10
+        weight: 1
+      - path: exterior/carpaint_/carpaint11
+        weight: 1
+      - path: exterior/carpaint_/carpaint12
+        weight: 1
+      - path: exterior/carpaint_/carpaint21
+        weight: 1
+      - path: exterior/carpaint_/carpaint22
+        weight: 1
+      - path: exterior/carpaint_/carpaint23
+        weight: 1
+      - path: exterior/carpaint_/carpaint24
+        weight: 1
+      - path: exterior/carpaint_/carpaint25
+        weight: 1
+      - path: exterior/carpaint_/carpaint26
+        weight: 1
+      - path: exterior/carpaint_/carpaint27
+        weight: 1
+      - path: exterior/exhaust4
+        weight: 1
+      - path: exterior/FL_wheel
+        weight: 1
+      - path: exterior/FL_wheel/FL_brakeDisc
+        weight: 1
+      - path: exterior/FL_wheel/FL_caliper
+        weight: 1
+      - path: exterior/FL_wheel/FL_rim
+        weight: 1
+      - path: exterior/FL_wheel/FL_tire
+        weight: 1
+      - path: exterior/FL_wheel/FLrim_spoke
+        weight: 1
+      - path: exterior/FR_wheel
+        weight: 1
+      - path: exterior/FR_wheel/FL_brakeDisc 1
+        weight: 1
+      - path: exterior/FR_wheel/FL_caliper 1
+        weight: 1
+      - path: exterior/FR_wheel/FL_rim 1
+        weight: 1
+      - path: exterior/FR_wheel/FL_tire 1
+        weight: 1
+      - path: exterior/FR_wheel/FLrim_spoke 1
+        weight: 1
+      - path: exterior/front_duct_lid
+        weight: 1
+      - path: exterior/front_inlet03
+        weight: 1
+      - path: exterior/front_inlet04
+        weight: 1
+      - path: exterior/front_plate_case
+        weight: 1
+      - path: exterior/front_plate_plane
+        weight: 1
+      - path: exterior/Front_Spoiler
+        weight: 1
+      - path: exterior/front_spoiler_blocker
+        weight: 1
+      - path: exterior/fuel_cap_part
+        weight: 1
+      - path: exterior/FuelLid
+        weight: 1
+      - path: exterior/glass
+        weight: 1
+      - path: exterior/hood_lock2
+        weight: 1
+      - path: exterior/hook
+        weight: 1
+      - path: exterior/l_wiper
+        weight: 1
+      - path: exterior/lights
+        weight: 1
+      - path: exterior/polymsh_detached
+        weight: 1
+      - path: exterior/pPlane3
+        weight: 1
+      - path: exterior/r_wiper
+        weight: 1
+      - path: exterior/rear_air_outlet
+        weight: 1
+      - path: exterior/rear_bumper_mid
+        weight: 1
+      - path: exterior/rear_plate_case
+        weight: 1
+      - path: exterior/rear_plate_panel
+        weight: 1
+      - path: exterior/rear_reflector
+        weight: 1
+      - path: exterior/rear_spoiler
+        weight: 1
+      - path: exterior/rearLightGlass
+        weight: 1
+      - path: exterior/RearOuttakes
+        weight: 1
+      - path: exterior/RearWing_Bolts
+        weight: 1
+      - path: exterior/RearWing_Gasket
+        weight: 1
+      - path: exterior/RearWing_holder
+        weight: 1
+      - path: exterior/RearWing_Small
+        weight: 1
+      - path: exterior/RL_wheel
+        weight: 1
+      - path: exterior/RL_wheel/FL_brakeDisc 2
+        weight: 1
+      - path: exterior/RL_wheel/FL_caliper 2
+        weight: 1
+      - path: exterior/RL_wheel/FL_rim 2
+        weight: 1
+      - path: exterior/RL_wheel/FL_tire 2
+        weight: 1
+      - path: exterior/RL_wheel/FLrim_spoke 2
+        weight: 1
+      - path: exterior/RR_wheel
+        weight: 1
+      - path: exterior/RR_wheel/FL_brakeDisc 3
+        weight: 1
+      - path: exterior/RR_wheel/FL_caliper 3
+        weight: 1
+      - path: exterior/RR_wheel/FL_rim 3
+        weight: 1
+      - path: exterior/RR_wheel/FL_tire 3
+        weight: 1
+      - path: exterior/RR_wheel/FLrim_spoke 3
+        weight: 1
+      - path: exterior/spoiler_middle
+        weight: 1
+      - path: exterior/spoiler_side
+        weight: 1
+      - path: exterior/windshield
+        weight: 1
+      - path: exterior/windshield_frame
+        weight: 1
+      - path: interior
+        weight: 1
+      - path: l_door_G
+        weight: 1
+      - path: l_door_G/fl_door_exterior
+        weight: 1
+      - path: l_door_G/l_door_glass
+        weight: 1
+      - path: l_door_G/l_door_handle
+        weight: 1
+      - path: l_door_G/l_door_interior
+        weight: 1
+      - path: l_door_G/l_side_mirror
+        weight: 1
+      - path: l_door_G/l_side_mirror/body
+        weight: 1
+      - path: l_door_G/l_side_mirror/mirror
+        weight: 1
+      - path: l_door_G/left_tri_plane
+        weight: 1
+      - path: r_door_G
+        weight: 1
+      - path: r_door_G/fl_door_exterior2
+        weight: 1
+      - path: r_door_G/r_door_glass
+        weight: 1
+      - path: r_door_G/r_door_handle
+        weight: 1
+      - path: r_door_G/r_door_interior
+        weight: 1
+      - path: r_door_G/r_side_mirror
+        weight: 1
+      - path: r_door_G/r_side_mirror/body 1
+        weight: 1
+      - path: r_door_G/r_side_mirror/mirror 1
+        weight: 1
+      - path: r_door_G/right_tri_plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
