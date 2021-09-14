@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class RearWheelDrive : MonoBehaviour
 {
+    public TrailRenderer[] trails;
     public float maxAngle = 60;
     public float maxTorque = 10;
     public bool isBreakDown = false;
+    bool isTurned = false;
+    bool tireMarks;
 
     public Transform breakIcon;
 
@@ -25,10 +28,15 @@ public class RearWheelDrive : MonoBehaviour
      float angle = maxAngle * SimpleInput.GetAxis("Horizontal");
      
      float torque = torque = maxTorque * SimpleInput.GetAxis("Vertical");
-     
+
+        if (angle != wheelColliderArray[0].steerAngle)
+            isTurned = true;
+        else
+            isTurned = false;
 
     wheelColliderArray[0].steerAngle = angle;
     wheelColliderArray[1].steerAngle = angle;
+
      if(!isBreakDown)
     {
         wheelColliderArray[2].motorTorque = torque;
@@ -38,13 +46,10 @@ public class RearWheelDrive : MonoBehaviour
     }
      else
      {
-   //       wheelColliderArray[2].motorTorque = 0;
-   //      wheelColliderArray[3].motorTorque = 0;
-         wheelColliderArray[2].brakeTorque = maxTorque;
+   
+        wheelColliderArray[2].brakeTorque = maxTorque;
         wheelColliderArray[3].brakeTorque = maxTorque;
-        
-      //   Debug.Log("BRAKE" + isBreakDown);
-      //   Debug.Log(wheelColliderArray[3].brakeTorque);
+
      }
      
      
@@ -70,6 +75,13 @@ public class RearWheelDrive : MonoBehaviour
         wheelModel.rotation = ro;
      }
 
+        if ((isTurned || isBreakDown) && wheelColliderArray[2].motorTorque != 0)
+        {
+            startTrail();
+        }
+        else
+            stopTrail();
+
     }
 
      public void breakDown()
@@ -80,11 +92,33 @@ public class RearWheelDrive : MonoBehaviour
 
      public void breakUp()
      {
-         isBreakDown = false;
-         wheelColliderArray[2].brakeTorque = 0;
+        isBreakDown = false;
+        wheelColliderArray[2].brakeTorque = 0;
         wheelColliderArray[3].brakeTorque = 0;
         breakIcon.localScale =new Vector3(1, 1, 1);
-
-        
      }
+
+    void startTrail()
+    {
+        if (tireMarks)
+            return;
+        foreach(TrailRenderer t in trails)
+        {
+            t.emitting = true;
+        }
+
+        tireMarks = true;
+    }
+
+    void stopTrail()
+    {
+        if (!tireMarks)
+            return;
+        foreach (TrailRenderer t in trails)
+        {
+            t.emitting = false;
+        }
+
+        tireMarks = false;
+    }
 }
